@@ -1,0 +1,33 @@
+{
+  "name": "activefence_challenge",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha tests --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Perach_Ben_David@bitbucket.org/Perach_Ben_David/activefence_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Perach_Ben_David/activefence_challenge#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "node-html-parser": "^1.2.20",
+    "react-redux": "^7.2.1",
+    "save": "^2.4.0",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "chai": "^4.2.0"
+  }
+}
